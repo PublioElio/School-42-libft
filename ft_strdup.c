@@ -1,36 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adiaz-be <adiaz-be@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/24 16:52:08 by adiaz-be          #+#    #+#             */
-/*   Updated: 2022/09/24 16:52:36 by adiaz-be         ###   ########.fr       */
+/*   Created: 2022/09/26 17:50:20 by adiaz-be          #+#    #+#             */
+/*   Updated: 2022/09/26 17:50:50 by adiaz-be         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+char	*ft_strdup(const char *s1)
 {
-	int	number;
-	int	negative;
+	char			*str;
+	unsigned int	size;
+	unsigned int	i;
 
-	number = 0;
-	negative = 1;
-	while ((*str >= 9 && *str <= 13) || *str == 32)
-		str++;
-	if (*str == 43 || *str == 45)
+	i = 0;
+	size = ft_strlen(s1) + 1;
+	str = malloc(sizeof(char) * size);
+	if (!str)
+		return (NULL);
+	while (i < size)
 	{
-		if (*str == 45)
-			negative *= -1;
-		str++;
+		str[i] = s1[i];
+		i++;
 	}
-	while (*str >= 48 && *str <= 57)
-	{
-		number = number * 10 + (*str - '0');
-		str++;
-	}
-	return (number * negative);
+	str[i] = '\0';
+	return (str);
 }

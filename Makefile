@@ -23,6 +23,7 @@ SOURCES	=	ft_atoi.c		\
 			ft_memmove.c	\
 			ft_memset.c		\
 			ft_strchr.c		\
+			ft_strdup.c		\
 			ft_strlcat.c 	\
 			ft_strlcpy.c	\
 			ft_strlen.c 	\
@@ -46,7 +47,8 @@ $(NAME):	$(OBJECTS)
 %.o:		%.c
 			$(CC) $(CFLAGS) -c $^ -o $@
 
-all:		$(NAME)	
+all:		$(NAME)
+			-j 4
 
 clean:
 			rm -rf $(OBJECTS)
