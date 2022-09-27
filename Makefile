@@ -24,6 +24,7 @@ SOURCES	=	ft_atoi.c		\
 			ft_memset.c		\
 			ft_strchr.c		\
 			ft_strdup.c		\
+			ft_strjoin.c	\
 			ft_strlcat.c 	\
 			ft_strlcpy.c	\
 			ft_strlen.c 	\
@@ -40,7 +41,7 @@ OBJECTS	=	$(SOURCES:.c=.o)
 
 CC		=	gcc
 
-CFLAGC	+=	-Wall -Werror -Wextra
+CFLAGS	+=	-Wall -Werror -Wextra
 
 $(NAME):	$(OBJECTS)
 			ar -crs $@ $^
