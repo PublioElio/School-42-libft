@@ -27,5 +27,5 @@ char	*ft_strchr(const char *s, int c)
 	}
 	if (s[i] == find)
 		return ((char *)s + i);
-	return (0);
+	return (NULL);
 }
