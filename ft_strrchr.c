@@ -29,5 +29,5 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	if (last[i] == find)
 		return (last);
-	return (0);
+	return (NULL);
 }
