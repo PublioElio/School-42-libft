@@ -1,36 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: adiaz-be <adiaz-be@student.42malaga.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/24 16:52:08 by adiaz-be          #+#    #+#             */
-/*   Updated: 2022/09/24 16:52:36 by adiaz-be         ###   ########.fr       */
+/*   Created: 2022/10/01 11:59:48 by adiaz-be          #+#    #+#             */
+/*   Updated: 2022/10/01 12:00:06 by adiaz-be         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *str)
+void	ft_putendl_fd(char *s, int fd)
 {
-	int	num;
-	int	neg;
-
-	num = 0;
-	neg = 1;
-	while ((*str >= 9 && *str <= 13) || *str == 32)
-		str++;
-	if (*str == 43 || *str == 45)
+	if (s != NULL)
 	{
-		if (*str == 45)
-			neg *= -1;
-		str++;
+		ft_putstr_fd(s, fd);
+		ft_putchar_fd('\n', fd);
 	}
-	while (*str >= 48 && *str <= 57)
-	{
-		num = num * 10 + (*str - '0');
-		str++;
-	}
-	return (num * neg);
 }

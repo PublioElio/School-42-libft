@@ -25,6 +25,8 @@ SRC	=	ft_atoi.c		\
 		ft_memmove.c	\
 		ft_memset.c		\
 		ft_putchar_fd.c	\
+		ft_putendl_fd.c	\
+		ft_putnbr_fd.c	\
 		ft_putstr_fd.c	\
 		ft_split.c		\
 		ft_strchr.c		\
@@ -43,29 +45,29 @@ SRC	=	ft_atoi.c		\
 		ft_tolower.c	\
 		ft_toupper.c	\
 
-NAME	=	libft.a
+NAME = libft.a
 
-OBJECTS	=	$(SRC:.c=.o)
+OBJ	= $(SRC:.c=.o)
 
-CC		=	gcc
+CC = gcc
 
-CFLAGS	+=	-Wall -Werror -Wextra
+CFLAGS = -Wall -Werror -Wextra
 
-$(NAME):	$(OBJECTS)
-			ar -crs $@ $^
+$(NAME): $(OBJ)
+	ar -crs $@ $^
 
-%.o:		%.c
-			$(CC) $(CFLAGS) -c $^ -o $@
+%.o: %.c
+	$(CC) $(CFLAGS) -c $^ -o $@
 
-all:		$(NAME)
-			-j 4
+all: $(NAME)
+		-j 4
 
 clean:
-			rm -rf $(OBJECTS)
+	rm -rf $(OBJ)
 
-fclean:		clean
-			rm -rf $(NAME)		
+fclean:	clean
+	rm -rf $(NAME)		
 
-re:			fclean all
+re:	fclean all
 
-.PHONY:		all clean fclean re
+.PHONY:	all clean fclean re
