@@ -45,15 +45,21 @@ SRC	=	ft_atoi.c		\
 		ft_tolower.c	\
 		ft_toupper.c	\
 
-NAME = libft.a
+OBJS = $(SRC:.c=.o)
 
-OBJ	= $(SRC:.c=.o)
+BONUS =	ft_lstnew.c		\
+
+BONUS_OBJS = $(BONUS:.c=.o)
+
+NAME = libft.a
 
 CC = gcc
 
 CFLAGS = -Wall -Werror -Wextra
 
-$(NAME): $(OBJ)
+RM = rm -rf
+
+$(NAME): $(OBJS)
 	ar -crs $@ $^
 
 %.o: %.c
@@ -63,11 +69,14 @@ all: $(NAME)
 		-j 4
 
 clean:
-	rm -rf $(OBJ)
+	$(RM) $(OBJS) $(BONUS_OBJS)
 
 fclean:	clean
-	rm -rf $(NAME)		
+	$(RM) $(NAME)		
 
 re:	fclean all
+
+bonus: $(OBJS) $(BONUS_OBJS)
+	ar -crs $(NAME) $(OBJS) $(BONUS_OBJS)
 
 .PHONY:	all clean fclean re
