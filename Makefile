@@ -47,7 +47,11 @@ SRC	=	ft_atoi.c		\
 
 OBJS = $(SRC:.c=.o)
 
-BONUS =	ft_lstnew.c		\
+BONUS =	ft_lstadd_back.c	\
+		ft_lstadd_front.c	\
+		ft_lstlast.c	\
+		ft_lstnew.c		\
+		ft_lstsize.c	\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
@@ -56,14 +60,14 @@ NAME = libft.a
 CC = gcc
 
 CFLAGS = -Wall -Werror -Wextra
-
 RM = rm -rf
+AR = ar -crs
 
 $(NAME): $(OBJS)
-	ar -crs $@ $^
+	$(AR) $@ $^
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $^ -o $@
+	$(CC) $(CFLAGS) -c -o $@ $^
 
 all: $(NAME)
 		-j 4
@@ -77,6 +81,6 @@ fclean:	clean
 re:	fclean all
 
 bonus: $(OBJS) $(BONUS_OBJS)
-	ar -crs $(NAME) $(OBJS) $(BONUS_OBJS)
+	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
 
 .PHONY:	all clean fclean re
