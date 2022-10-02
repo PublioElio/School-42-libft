@@ -16,8 +16,8 @@ The code in this repository follows [the rules of the Norminette](https://github
 ## Function list:
 
 ### Functions from `<ctype.h>` library
-* `ft_isascii` - test for ASCII character.
-* `ft_isalnum` - alphanumeric character test.
+* [`ft_isascii`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
+* [`ft_isalnum`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isalnum.c) - Test a character to see if it's alphanumeric.
 * `ft_isalpha` - alphabetic character test.
 * `ft_isdigit` - decimal-digit character test.
 * `ft_isprint` - printing character test (space character inclusive).
