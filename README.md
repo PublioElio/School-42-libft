@@ -47,17 +47,17 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_strlcat`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strlcat.c) - Size-bounded string concatenation.
 
 ### Non-standard functions
-* `ft_itoa` - convert integer to ASCII string.
-* `ft_substr` - extract substring from string.
-* `ft_strtrim` - trim beginning and end of string with the specified characters.
-* `ft_strjoin` - concatenate two strings into a new string (with malloc).
-* `ft_split` - split string, with specified character as delimiter, into an array of strings.
-* `ft_strmapi` - create new string from modifying string with specified function.
-* `ft_striteri` -
-* `ft_putchar_fd` - output a character to given file.
-* `ft_putstr_fd` - output string to given file.
-* `ft_putendl_fd` - output string to given file with newline.
-* `ft_putnbr_fd` - output integer to given file.
+* [`ft_itoa`](https://github.com/PublioElio/School-42-libft/blob/main/ft_itoa.c) - Convert integer to ASCII string.
+* [`ft_substr`](https://github.com/PublioElio/School-42-libft/blob/main/ft_substr.c) - Get a substring from string.
+* [`ft_strtrim`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strtrim.c) - Trim beginning and end of string with the specified substring.
+* [`ft_strjoin`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strjoin.c) - Concatenate two strings into a new string, using `calloc`.
+* [`ft_split`](https://github.com/PublioElio/School-42-libft/blob/main/ft_split.c) - Split string, with specified character as delimiter, into an array of strings.
+* [`ft_strmapi`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strmapi.c) - Create new string from a string modified with a specified function.
+* [`ft_striteri`](https://github.com/PublioElio/School-42-libft/blob/main/ft_striteri.c) - Modify a string with a given function.
+* [`ft_putchar_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putchar_fd.c) - Output a character to given file.
+* `ft_putstr_fd` - Output string to given file.
+* `ft_putendl_fd` - Output string to given file with newline.
+* `ft_putnbr_fd` - Output integer to given file.
 
 ### Linked list functions *(bonus)*
 * `ft_lstnew` - create new list.
