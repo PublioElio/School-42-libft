@@ -36,7 +36,7 @@ The code in this repository follows [the rules of the Norminette](https://github
 * `ft_memmove` - copy byte string.
 * `ft_memcpy` - copy memory area.
 
-### Functions from <string.h> library
+### Functions from `<string.h>` library
 * `ft_strlen` - find length of string.
 * `ft_strchr` - locate character in string (first occurrence).
 * `ft_strrchr` - locate character in string (last occurence).
@@ -59,7 +59,7 @@ The code in this repository follows [the rules of the Norminette](https://github
 * `ft_putendl_fd` - output string to given file with newline.
 * `ft_putnbr_fd` - output integer to given file.
 
-### Linked list functions (bonus)
+### Linked list functions *(bonus)*
 * `ft_lstnew` - create new list.
 * `ft_lstsize` - count elements of a list.
 * `ft_lstlast` - find last element of list.
