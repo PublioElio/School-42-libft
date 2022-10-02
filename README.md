@@ -17,10 +17,10 @@ The code in this repository follows [the rules of the Norminette](https://github
 
 ### Functions from `<ctype.h>` library
 * [`ft_isascii`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
+* [`ft_isalpha`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isalpha.c) - Test a character to see if it's alphabetic.
+* [`ft_isdigit`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isdigit.c) - Test a character to see if it's a decimal digit.
 * [`ft_isalnum`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isalnum.c) - Test a character to see if it's alphanumeric.
-* `ft_isalpha` - alphabetic character test.
-* `ft_isdigit` - decimal-digit character test.
-* `ft_isprint` - printing character test (space character inclusive).
+* [`ft_isprint`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isprint.c) - Test a character to see if it's any printable character, including a space.
 * `ft_tolower` - upper case to lower case letter conversion.
 * `ft_toupper` - lower case to upper case letter conversion.
 
