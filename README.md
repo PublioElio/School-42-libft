@@ -55,9 +55,9 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_strmapi`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strmapi.c) - Create new string from a string modified with a specified function.
 * [`ft_striteri`](https://github.com/PublioElio/School-42-libft/blob/main/ft_striteri.c) - Modify a string with a given function.
 * [`ft_putchar_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putchar_fd.c) - Output a character to given file.
-* `ft_putstr_fd` - Output string to given file.
-* `ft_putendl_fd` - Output string to given file with newline.
-* `ft_putnbr_fd` - Output integer to given file.
+* [`ft_putstr_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putstr_fd.c) - Output string to given file.
+* [`ft_putendl_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putendl_fd.c) - Output string to given file with newline.
+* [`ft_putnbr_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putnbr_fd.c) - Output integer to given file.
 
 ### Linked list functions *(bonus)*
 * `ft_lstnew` - create new list.
