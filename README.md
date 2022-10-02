@@ -37,14 +37,14 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_memcpy`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memcpy.c) - Copy bytes from one buffer to another.
 
 ### Functions from `<string.h>` library
-* `ft_strlen` - find length of string.
-* `ft_strchr` - locate character in string (first occurrence).
-* `ft_strrchr` - locate character in string (last occurence).
-* `ft_strnstr` - locate a substring in a string (size-bounded).
-* `ft_strncmp` - compare strings (size-bounded).
-* `ft_strdup` - save a copy of a string (with malloc).
-* `ft_strlcpy` - size-bounded string copying.
-* `ft_strlcat` - size-bounded string concatenation.
+* [`ft_strlen`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strlen.c) - Get the length of a string.
+* [`ft_strchr`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strchr.c) - Find the first occurrence of a character in a string.
+* [`ft_strrchr`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strrchr.c) - Find the last occurrence of a character in a string.
+* [`ft_strnstr`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strnstr.c) - Locate a substring in a string.
+* [`ft_strncmp`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strncmp.c) - Compare two strings, up to a given length.
+* [`ft_strdup`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strdup.c) - Create a duplicate of a string, using `malloc`.
+* [`ft_strlcpy`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strlcpy.c) - Size-bounded string copy.
+* [`ft_strlcat`](https://github.com/PublioElio/School-42-libft/blob/main/ft_strlcat.c) - Size-bounded string concatenation.
 
 ### Non-standard functions
 * `ft_itoa` - convert integer to ASCII string.
