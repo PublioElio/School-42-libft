@@ -60,13 +60,13 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_putnbr_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putnbr_fd.c) - Output integer to given file.
 
 ### Linked list functions *(bonus)*
-* `ft_lstnew` - Create new list.
-* `ft_lstsize` - Count elements of a list.
-* `ft_lstlast` - Find last element of list.
-* `ft_lstadd_back` - Add new element at end of list.
-* `ft_lstadd_front` - Add new element at beginning of list.
-* `ft_lstdelone` - Delete element from list.
-* `ft_lstclear` - Delete sequence of elements of list from a starting point.
-* `ft_lstiter` - Apply function to content of all list's elements.
-* `ft_lstmap` - Apply function to content of all list's elements into new list.
+* [`ft_lstnew`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstnew_bonus.c) - Create new list.
+* [`ft_lstsize`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstsize_bonus.c) - Count elements of a list.
+* [`ft_lstlast`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstlast_bonus.c) - Find last element of list.
+* [`ft_lstadd_back`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstadd_back_bonus.c) - Add new element at end of list.
+* [`ft_lstadd_front`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstadd_front_bonus.c) - Add new element at beginning of list.
+* [`ft_lstdelone`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstdelone_bonus.c) - Delete element from list.
+* [`ft_lstclear`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstclear_bonus.c) - Delete sequence of elements of list from a starting point.
+* [`ft_lstiter`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstiter_bonus.c) - Apply function to content of all list's elements.
+* [`ft_lstmap`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstmap_bonus.c) - Apply function to content of all list's elements into new list.
 
