@@ -24,17 +24,17 @@ The code in this repository follows [the rules of the Norminette](https://github
 * `ft_tolower` - upper case to lower case letter conversion.
 * `ft_toupper` - lower case to upper case letter conversion.
 
-Functions from <stdlib.h> library
-	•	ft_atoi - convert ASCII string to integer.
-	•	ft_calloc - memory allocation.
+Functions from `<stdlib.h>` library
+* `ft_atoi` - convert ASCII string to integer.
+* `ft_calloc` - memory allocation.
 
-Functions from <strings.h> library
-	•	ft_bzero - write zeroes to a byte string.
-	•	ft_memset - write a byte to a byte string.
-	•	ft_memchr - locate byte in byte string.
-	•	ft_memcmp - compare byte string.
-	•	ft_memmove - copy byte string.
-	•	ft_memcpy - copy memory area.
+Functions from `<strings.h>` library
+* `ft_bzero` - write zeroes to a byte string.
+* `ft_memset` - write a byte to a byte string.
+* `ft_memchr` - locate byte in byte string.
+* `ft_memcmp` - compare byte string.
+* `ft_memmove` - copy byte string.
+* `ft_memcpy` - copy memory area.
 
 Functions from <string.h> library
 	•	ft_strlen - find length of string.
