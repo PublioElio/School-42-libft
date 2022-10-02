@@ -74,7 +74,6 @@ $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) -c -o $@ $^
 
 all: $(NAME)
-		-j 4
 
 clean:
 	$(RM) $(OBJS) $(BONUS_OBJS)
@@ -87,4 +86,4 @@ re:	fclean all
 bonus: $(OBJS) $(BONUS_OBJS)
 	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
 
-.PHONY:	all clean fclean re
+.PHONY:	all clean fclean re bonus
