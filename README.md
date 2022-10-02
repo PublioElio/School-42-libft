@@ -21,8 +21,8 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_isdigit`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isdigit.c) - Test a character to see if it's a decimal digit.
 * [`ft_isalnum`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isalnum.c) - Test a character to see if it's alphanumeric.
 * [`ft_isprint`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isprint.c) - Test a character to see if it's any printable character, including a space.
-* `ft_tolower` - upper case to lower case letter conversion.
-* `ft_toupper` - lower case to upper case letter conversion.
+* [`ft_tolower`](https://github.com/PublioElio/School-42-libft/blob/main/ft_tolower.c) - Converts a character to lowercase.
+* [`ft_toupper`](https://github.com/PublioElio/School-42-libft/blob/main/ft_toupper.c) - Converts a character to uppercase.
 
 ### Functions from `<stdlib.h>` library
 * `ft_atoi` - convert ASCII string to integer.
