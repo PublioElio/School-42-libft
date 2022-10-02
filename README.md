@@ -29,12 +29,12 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_calloc`](https://github.com/PublioElio/School-42-libft/blob/main/ft_calloc.c) - Allocate space for an array.
 
 ### Functions from `<strings.h>` library
-* `ft_bzero` - write zeroes to a byte string.
-* `ft_memset` - write a byte to a byte string.
-* `ft_memchr` - locate byte in byte string.
-* `ft_memcmp` - compare byte string.
-* `ft_memmove` - copy byte string.
-* `ft_memcpy` - copy memory area.
+* [`ft_bzero`](https://github.com/PublioElio/School-42-libft/blob/main/ft_bzero.c) - Set the first part of an object to null bytes (filling it with zeroes).
+* [`ft_memset`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memset.c) - Set memory to a given value.
+* [`ft_memchr`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memchr.c) - Find the first occurrence of a character in a buffer (locate byte in byte string).
+* [`ft_memcmp`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memcmp.c) - Compare the bytes in two buffers.
+* [`ft_memmove`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memmove.c) - Copy bytes from one buffer to another, handling overlapping memory correctly.
+* [`ft_memcpy`](https://github.com/PublioElio/School-42-libft/blob/main/ft_memcpy.c) - Copy bytes from one buffer to another.
 
 ### Functions from `<string.h>` library
 * `ft_strlen` - find length of string.
