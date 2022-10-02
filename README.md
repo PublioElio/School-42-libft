@@ -60,13 +60,13 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_putnbr_fd`](https://github.com/PublioElio/School-42-libft/blob/main/ft_putnbr_fd.c) - Output integer to given file.
 
 ### Linked list functions *(bonus)*
-* `ft_lstnew` - create new list.
-* `ft_lstsize` - count elements of a list.
-* `ft_lstlast` - find last element of list.
-* `ft_lstadd_back` - add new element at end of list.
-* `ft_lstadd_front` - add new element at beginning of list.
-* `ft_lstdelone` - delete element from list.
-* `ft_lstclear` - delete sequence of elements of list from a starting point.
-* `ft_lstiter` - apply function to content of all list's elements.
-* `ft_lstmap` - apply function to content of all list's elements into new list.
+* `ft_lstnew` - Create new list.
+* `ft_lstsize` - Count elements of a list.
+* `ft_lstlast` - Find last element of list.
+* `ft_lstadd_back` - Add new element at end of list.
+* `ft_lstadd_front` - Add new element at beginning of list.
+* `ft_lstdelone` - Delete element from list.
+* `ft_lstclear` - Delete sequence of elements of list from a starting point.
+* `ft_lstiter` - Apply function to content of all list's elements.
+* `ft_lstmap` - Apply function to content of all list's elements into new list.
 
