@@ -26,7 +26,7 @@ The code in this repository follows [the rules of the Norminette](https://github
 
 ### Functions from `<stdlib.h>` library
 * [`ft_atoi`](https://github.com/PublioElio/School-42-libft/blob/main/ft_atoi.c) - Convert ASCII string to integer.
-* [`ft_calloc`](https://github.com/PublioElio/School-42-libft/blob/main/ft_calloc.c) - Allocate space for an array.
+* [`ft_calloc`](https://github.com/PublioElio/School-42-libft/blob/main/ft_calloc.c) - Allocate space for an array. This function and `malloc` return void pointers, that had no associated data type with it. A void pointer can hold address of any type and can be typecasted to any type.
 
 ### Functions from `<strings.h>` library
 * [`ft_bzero`](https://github.com/PublioElio/School-42-libft/blob/main/ft_bzero.c) - Set the first part of an object to null bytes (filling it with zeroes).
