@@ -70,3 +70,23 @@ The code in this repository follows [the rules of the Norminette](https://github
 * [`ft_lstiter`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstiter_bonus.c) - Apply function to content of all list's elements.
 * [`ft_lstmap`](https://github.com/PublioElio/School-42-libft/blob/main/ft_lstmap_bonus.c) - Apply function to content of all list's elements into new list.
 
+## Requirements
+The library is written in __C language__ and needs the `gcc` compiler, with `<stdlib.h>` and `<unistd.h>` standard libraries to run.
+
+## Instructions
+
+1. Compiling the library
+
+To compile the library, go to its path and run:
+For __all mandatory__ functions:
+`$ make`
+For __bonus__ functions:
+`$ make bonus`
+
+2. Cleaning all binary (.o) and executable files (.a)
+
+To clean all files generated while doing a make, go to the path and run:
+`$ make fclean`
+
+3. Using it in your code
+
