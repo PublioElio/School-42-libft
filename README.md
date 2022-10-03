@@ -75,7 +75,7 @@ The library is written in __C language__ and needs the `gcc` compiler, with `<st
 
 ## Instructions
 
-1. Compiling the library
+### 1. Compiling the library
 
 To compile the library, go to its path and run:
 
@@ -83,15 +83,28 @@ For __all mandatory__ functions:
 ```
 $ make
 ```
+
 For __bonus__ functions:
 ```
 $ make bonus
 ```
 
-2. Cleaning all binary (.o) and executable files (.a)
+### 2. Cleaning all binary (.o) and executable files (.a)
 
 To clean all files generated while doing a make, go to the path and run:
-`$ make fclean`
+```
+$ make fclean
+```
 
-3. Using it in your code
+### 3. Using it in your code
+
+To use the library functions in your code, simply include its header:
+```
+#include "libft.h"
+```
+
+## Testing
+You can use any of this third party testers to test the project
+[Francinette](https://github.com/xicodomingues/francinette)
+
 
