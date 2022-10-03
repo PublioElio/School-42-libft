@@ -78,10 +78,15 @@ The library is written in __C language__ and needs the `gcc` compiler, with `<st
 1. Compiling the library
 
 To compile the library, go to its path and run:
+
 For __all mandatory__ functions:
-`$ make`
+```
+$ make
+```
 For __bonus__ functions:
-`$ make bonus`
+```
+$ make bonus
+```
 
 2. Cleaning all binary (.o) and executable files (.a)
 
