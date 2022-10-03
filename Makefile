@@ -10,6 +10,8 @@
 #                                                                              #
 # **************************************************************************** #
 
+NAME = libft.a
+
 SRC	=	ft_atoi.c		\
 		ft_bzero.c		\
 		ft_calloc.c		\
@@ -59,19 +61,16 @@ BONUS =	ft_lstadd_back_bonus.c	\
 
 BONUS_OBJS = $(BONUS:.c=.o)
 
-NAME = libft.a
-
 CC = gcc
-
 CFLAGS = -Wall -Werror -Wextra
 RM = rm -rf
-AR = ar -crs
+AR = ar crs
 
 $(NAME): $(OBJS)
 	$(AR) $@ $^
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c -o $@ $^
+	$(CC) $(CFLAGS) -c $^ -o $@
 
 all: $(NAME)
 
@@ -84,6 +83,6 @@ fclean:	clean
 re:	fclean all
 
 bonus: $(OBJS) $(BONUS_OBJS)
-	$(AR) $(NAME) $(OBJS) $(BONUS_OBJS)
+	$(AR) $(NAME) $(OBJS)  $(BONUS_OBJS)
 
 .PHONY:	all clean fclean re bonus
