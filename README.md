@@ -13,7 +13,7 @@ This project is a __C library__ of useful functions that are allowed to be used 
 
 The code in this repository follows [the rules of the Norminette](https://github.com/PublioElio/School42-Piscina-agosto-2022/blob/main/norme.es.pdf).
 
-## Function list:
+## Function list
 
 ### Functions from `<ctype.h>` library
 * [`ft_isascii`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
@@ -79,7 +79,7 @@ The library is written in __C language__ and needs the `gcc` compiler, with `<st
 
 To compile the library, go to its path and run:
 
-For __all mandatory__ functions:
+For __basic__ functions:
 ```
 $ make
 ```
@@ -91,20 +91,19 @@ $ make bonus
 
 ### 2. Cleaning all binary (.o) and executable files (.a)
 
-To clean all files generated while doing a make, go to the path and run:
+To delete all files generated with make, go to the path and run:
 ```
 $ make fclean
 ```
 
 ### 3. Using it in your code
 
-To use the library functions in your code, simply include its header:
+To use the library functions in your code, simply include this header:
 ```
 #include "libft.h"
 ```
 
 ## Testing
-You can use any of this third party testers to test the project
-[Francinette](https://github.com/xicodomingues/francinette)
+This library have been tested with [Francinette](https://github.com/xicodomingues/francinette).
 
 
