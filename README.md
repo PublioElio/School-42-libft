@@ -27,6 +27,8 @@ This project is a __C library__ of useful functions that are allowed to be used 
 The code in this repository follows [the rules of the Norminette](https://github.com/PublioElio/School42-Piscina-agosto-2022/blob/main/norme.es.pdf).
 
 ## Index
+- [<ctype.h>](#functions-from-`<ctype.h>`-library)
+- [<stdlib.h>](#functions-from-`<stdlib.h>`-library)
 
 ### Functions from `<ctype.h>` library
 * [`ft_isascii`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
