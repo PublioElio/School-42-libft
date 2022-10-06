@@ -11,15 +11,15 @@
 This repository contains all archives for the project __libft__ in the __School 42 core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
 
 <h2 align="center">
-	<a href="##About">About</a>
+	<a href="#-About">About</a>
 	<span> · </span>
-	<a href="##Index">Index</a>
+	<a href="#-Index">Index</a>
 	<span> · </span>
-	<a href="##Requirements">Requirements</a>
+	<a href="#-Requirements">Requirements</a>
 	<span> · </span>
-	<a href="##Instructions">Instuctions</a>
+	<a href="#-Instructions">Instuctions</a>
 	<span> · </span>
-	<a href="##Testing">Testing</a>
+	<a href="#-Testing">Testing</a>
 </h2>
 
 ## About
