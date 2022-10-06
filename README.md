@@ -2,16 +2,14 @@
   <img src="https://media.giphy.com/media/ztl9x7JlhSlU4MWD6h/giphy.gif" width="200"/>
 </div>
 
-<h1 align="center">
-	libft
-</h1>
+<h1 align="center">libft</h1>
 
 > School 42 Málaga cursus project
 
-This repository contains all archives for the project __libft__ in the __School 42 core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
+This repository contains all archives for the project __libft__ in the __School 42 Málaga core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
 
 <h2 align="center">
-	<a href="#-About">About</a>
+	<a href="#-about">About</a>
 	<span> · </span>
 	<a href="#-Index">Index</a>
 	<span> · </span>
