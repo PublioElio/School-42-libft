@@ -9,15 +9,15 @@
 This repository contains all archives for the project __libft__ in the __School 42 Málaga core cursus__. It's a custom-made library of useful functions in __C language__. The repository includes the `Makefile` and the `libft.h` library.
 
 <h2 align="center">
-	<a href="#-about">About</a>
+	<a href="#about">About</a>
 	<span> · </span>
-	<a href="#-Index">Index</a>
+	<a href="#index">Index</a>
 	<span> · </span>
-	<a href="#-Requirements">Requirements</a>
+	<a href="#requirements">Requirements</a>
 	<span> · </span>
-	<a href="#-Instructions">Instuctions</a>
+	<a href="#instructions">Instuctions</a>
 	<span> · </span>
-	<a href="#-Testing">Testing</a>
+	<a href="#testing">Testing</a>
 </h2>
 
 ## About
