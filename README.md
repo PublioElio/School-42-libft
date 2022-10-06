@@ -27,7 +27,7 @@ This project is a __C library__ of useful functions that are allowed to be used 
 The code in this repository follows [the rules of the Norminette](https://github.com/PublioElio/School42-Piscina-agosto-2022/blob/main/norme.es.pdf).
 
 ## Index
-- [<ctype.h> functions](#functions-from-<ctype.h>-library)
+- [<ctype.h> functions](#functions-from-ctype.h-library)
 - [<stdlib.h> functions](#functions-from-<stdlib.h>-library)
 - [<strings.h> functions](#functions-from-<strings.h>-library)
 - [Non-standard functions](#non-standard-functions)
