@@ -29,6 +29,8 @@ The code in this repository follows [the rules of the Norminette](https://github
 ## Index
 - [<ctype.h>](#functions-from-`<ctype.h>`-library)
 - [<stdlib.h>](#functions-from-`<stdlib.h>`-library)
+- [<strings.h>](#functions-from-`<strings.h>`-library)
+- [Non-standard functions](#non-standard-functions)
 
 ### Functions from `<ctype.h>` library
 * [`ft_isascii`](https://github.com/PublioElio/School-42-libft/blob/main/ft_isascii.c) - Test a character to see if it's a 7-bit ASCII character.
